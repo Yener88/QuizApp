@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link rel="icon" type="image/x-icon" href="img/logowhite.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <nav class="navbar mediaheadersize">
+        <div class="container-fluid bg contentmiddle">
+            <span class="navbar-brand mb-0 h1">
+                <img class="headerimg medianone" src="img/logoblack.png">
+            </span>
+            <div>
+                <a class="musictitleahref" href="startscreen.html"><div class="musictitle mediabgimage"><b class="medianone">QUIZMUSIK</b></div></a>
+                <div class="musicbtnposition">
+                    <button class="musicbtnleft" onclick="playAudio()"><img class="musicbtnimg"
+                            src="img/play.png"></button>
+                    <button class="musicbtn" onclick="muteAudio()"><img class="musicbtnimg" src="img/mute.png"></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="maincontentmiddle">
+        <div class="card">
+            <!-- ENDSCREEN - BEREICH -->
+            <div class="card-body2 finishing finishgif" id="endScreen" style="display:none;"></div>
+            <!-- FRAGEN - BEREICH -->
+            <div id="questionBody">
+                <img src="img/cardheader.jpg" class="cardheaderimg">
+                <div class="startscreentitlepos">
+                    <div class="startscreentitle1">WILLKOMMEN ZUR QUIZ-APP</div>
+                    <div class="startscreentitle">WENN DU FÜR DIE ULTIMATIVE CHALLENGE BEREIT BIST</div>
+                    <div class="startscreentitle">DRÜCKE</div>
+                    <img src="img/arrow.png">
+                    <a href="index.html"><button class="startbtn">Start</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

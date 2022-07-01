@@ -1,0 +1,470 @@
+body {
+    margin: 0px;
+    background-color: rgb(227, 255, 253) !important;
+    color: #696969;
+}
+
+/* '''''''''''''''''''HEADER''''''''''''''''''' */
+
+.contentmiddle {
+    justify-content: space-between !important;
+}
+
+.bg {
+    background-color: rgb(225, 255, 252);
+    border-bottom: 1px dotted rgb(216, 216, 216);
+}
+
+.headerimg {
+    width: 90%;
+}
+
+.navbar {
+    height: 10vh !important;
+}
+
+/* '''''''''''''''''''MUSIC-BUTTON''''''''''''''''''' */
+
+.musicbtnimg {
+    width: 80%;
+    height: 20px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.musicbtn {
+    width: 50%;
+    height: 30px;
+    background-color: rgb(225, 255, 252);
+    border-bottom-right-radius: 5px;
+}
+
+.musicbtn:hover {
+    background-color: rgb(93, 253, 237);
+}
+
+.musicbtnleft {
+    width: 50%;
+    height: 30px;
+    background-color: rgb(225, 255, 252);
+    border-right: none;
+    border-bottom-left-radius: 5px;
+}
+
+.musicbtnleft:hover {
+    background-color: rgb(93, 253, 237);
+}
+
+.musictitle {
+    border-left: 2px solid;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    text-align: center;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.musictitle:hover {
+    background-color: rgb(93, 253, 237);
+}
+
+.musictitleahref {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.musictitleahref:hover {
+    color: black;
+}
+
+.musicbtnposition {
+    display: flex;
+}
+
+/* '''''''''''''''''''MAINCONTENT''''''''''''''''''' */
+
+.maincontentmiddle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+    max-height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    max-width: 85% !important;
+    width: 100% !important;
+    max-height: 45rem !important;
+    height: 100% !important;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+}
+
+/* '''''''''''''''''''ENDSCREEN''''''''''''''''''' */
+
+.finishgif {
+    background-image: url("img/finish.gif");
+    background-size: cover;
+}
+
+.finishing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finishing img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.finishingbtn {
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    color: black;
+    background-color: rgb(225, 255, 252);
+}
+
+.finishingbtn:hover {
+    color: black;
+    background-color: rgb(87, 255, 238)
+}
+
+.finishingheader {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.finishhover {
+    border-radius: 10px;
+    max-width: 150px;
+    width: 100%;
+    height: 40px;
+}
+
+.finishhover2:hover {
+    background-color: rgb(87, 255, 238) !important;
+}
+
+/* '''''''''''''''''''FRAGEN''''''''''''''''''' */
+
+.btn {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(225, 255, 252) !important;
+    color: black !important;
+    border-color: rgb(225, 255, 252) !important;
+    width: 96%;
+    height: 45px;
+    align-items: center;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.card-title {
+    text-align: center;
+    cursor: context-menu;
+}
+
+.card-body {
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body2 {
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cursornone {
+    cursor: context-menu;
+}
+
+.quizanswer:hover {
+    cursor: pointer;
+    background-color: rgb(87, 255, 238) !important;
+}
+
+.bg-success {
+    background-color: green !important;
+    color: white !important;
+}
+
+.bg-success:hover {
+    background-color: green !important;
+}
+
+.bg-danger {
+    background-color: red !important;
+    color: white !important;
+}
+
+.bg-danger:hover {
+    background-color: red !important;
+}
+
+.cardheaderimg {
+    object-fit: cover;
+    width: 100%;
+    height: 195px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+/* '''''''''''''''''''FORTSCHRITT BAR''''''''''''''''''' */
+
+.progress {
+    margin-left: 10px !important;
+    margin-top: 5px !important;
+    margin-right: 10px !important;
+}
+
+/* '''''''''''''''''''CARD-FOOTER''''''''''''''''''' */
+
+.btnamount {
+    margin: 5px;
+    background-color: rgb(225, 255, 252) !important;
+    color: black !important;
+    border-color: rgb(225, 255, 252) !important;
+    border-style: none;
+}
+
+.questionfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 1px solid rgb(216, 216, 216);
+    width: 100%;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.footermargin {
+    margin-left: 18px;
+}
+
+.btnblock {
+    position: relative;
+    width: 100%;
+
+}
+
+.btnblock2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.startscreentitle1 {
+    font-size: 30px;
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.startscreentitle {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.startscreentitlepos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.startbtn {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(225, 255, 252);
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: help !important;
+}
+
+.startbtn:hover {
+
+    background-color: rgb(93, 253, 237);
+}
+
+
+@media (max-width: 700px) {
+    .card {
+        max-width: 100% !important;
+    }
+
+    .contentmiddle {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .musicbtnleft {
+        width: 160px;
+        height: 40px;
+    }
+
+    .musicbtn {
+        width: 160px;
+        height: 40px;
+    }
+
+    .musicbtnimg {
+        margin-left: 13px;
+    }
+
+    .cardheaderimg {
+        height: 130px;
+    }
+
+    .headerimg {
+        width: 50%;
+    }
+
+    .maincontentmiddle {
+        height: 82vh;
+    }
+
+    .medianone {
+        display: none;
+    }
+
+    .mediabgimage {
+        background-image: url(img/logoblack.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 60px;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .mediabgimage:hover {
+        background-color: rgb(93, 253, 237);
+    }
+
+    .mediaheadersize {
+        margin: 0px !important;
+        padding: 0px !important;
+        padding-bottom: 10px !important;
+    }
+
+    h5 {
+        font-size: 1.5em !important;
+    }
+
+    .btn {
+        font-size: 1.5em !important;
+        margin-bottom: 5px !important;
+        margin-left: 5px !important;
+        height: 50px !important;
+    }
+
+    .footermargin {
+        font-size: 1.5em !important;
+        text-align: center;
+    }
+
+    .questionfooter {
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .finishhover {
+        max-width: 210px;
+        font-size: 1.4em !important;
+        height: 100px;
+        font-weight: bold;
+    }
+
+    .finishingheader {
+        font-size: 3.0em !important;
+        text-align: center;
+    }
+
+    .progress {
+        height: 40px !important;
+        font-size: 1.2em !important;
+    }
+
+    .finishingbtn {
+        max-width: 220px;
+        max-height: 75px;
+        font-size: 240%;
+        font-weight: bold;
+    }
+
+    .navbar {
+        height: 18vh !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .progress {
+        height: 40px !important;
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .progress {
+        font-size: 10px !important;
+    }
+
+    .finishingheader {
+        font-size: 2.0em !important;
+    }
+
+    .footermargin {
+        font-size: 1.2em !important;
+    }
+
+    .cardheaderimg {
+        height: 80px;
+    }
+
+    .musicbtnleft {
+        width: 120px;
+    }
+
+    .musicbtn {
+        width: 120px;
+    }
+}
+
+
+
+/* ''''   DANKE DASS DU DIR MEINE QUIZ APP ANGESEHEN HAST!!!   '''' */
+/* ''''   LASS MIR GERNE FEEDBACK DA!!!   '''' */
